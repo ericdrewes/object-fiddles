@@ -34,7 +34,7 @@ var favoriteThings = {
   person: 'Greg Maddux',
   book: 'Coding for Dummies',
   movie: 'Scott Pilgrim vs. The World',
-  holiday: 'Thanksgiving'
+  holiday: 'Christmas with my Family'
 }
 
 
@@ -45,8 +45,8 @@ var favoriteThings = {
 
   //Code here
 
-favoriteThings.car = "Ford F100";
-favoriteThings.brand = "Nike";
+favoriteThings.car = "1967 Ford F100";
+favoriteThings.brand = "Apple and Adidas";
 
 
 
@@ -80,8 +80,10 @@ that is named color, with the value being the color of your backpack.
   //Code here
 
   var backPack = {}
-  var item = 'firstPocket'
-  backPack[item] = 'chapstick';
+
+  var item = "firstPocket";
+  backPack[item] = "chapstick";
+  backPack.color = "black";
 
 
 
@@ -168,7 +170,7 @@ methodCollection.logHello = function() {
   //Code Here
 
 methodCollection.alerthello();
-method.Collection.logHello()
+methodCollection.logHello()
 
 
 
@@ -193,7 +195,7 @@ function makePerson(name, birthday, ssn){
   return person;
 };
 
-var firstPerson = makePerson('Eric', 'October 28th', 097647893)
+var firstPerson = makePerson('Eric', 'October 28th', 347647893)
 
 console.log(firstPerson);
 
